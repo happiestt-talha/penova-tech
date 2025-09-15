@@ -1,0 +1,261 @@
+{
+    "name": "Pen-Tech Solutions - Leading IT Solutions & Web Development Agency",
+    "short_name": "Pen-Tech Solutions",
+    "description": "Transform your business with innovative technology solutions. Expert web development, mobile apps, cloud services, and cybersecurity in San Francisco.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#303C6A",
+    "background_color": "#FEFFEA",
+    "lang": "en-US",
+    "dir": "ltr",
+    "categories": [
+        "business",
+        "productivity",
+        "technology",
+        "developer"
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/desktop-home.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Home page showcasing our services"
+        },
+        {
+            "src": "/screenshots/mobile-home.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "platform": "narrow",
+            "label": "Mobile view of our homepage"
+        },
+        {
+            "src": "/screenshots/desktop-services.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Our comprehensive IT services"
+        },
+        {
+            "src": "/screenshots/mobile-contact.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "platform": "narrow",
+            "label": "Contact us for your next project"
+        }
+    ],
+    "icons": [
+        {
+            "src": "/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icons/icon-maskable-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-maskable-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-monochrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "monochrome"
+        },
+        {
+            "src": "/icons/icon-any-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-any-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Our Services",
+            "short_name": "Services",
+            "description": "Explore our comprehensive IT solutions",
+            "url": "/services",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-services-96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Contact Us",
+            "short_name": "Contact",
+            "description": "Get in touch for your next project",
+            "url": "/contact",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-contact-96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Our Portfolio",
+            "short_name": "Portfolio",
+            "description": "View our successful projects",
+            "url": "/portfolio",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-portfolio-96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "About Us",
+            "short_name": "About",
+            "description": "Learn about our team and mission",
+            "url": "/about",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-about-96x96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.penova techsolutions.app",
+            "id": "com.penova techsolutions.app"
+        },
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/app/pen-tech-solutions/id123456789",
+            "id": "123456789"
+        }
+    ],
+    "prefer_related_applications": false,
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
+    "protocol_handlers": [
+        {
+            "protocol": "mailto",
+            "url": "/contact?email=%s"
+        },
+        {
+            "protocol": "tel",
+            "url": "/contact?phone=%s"
+        }
+    ],
+    "file_handlers": [
+        {
+            "action": "/file-handler",
+            "accept": {
+                "application/pdf": [
+                    ".pdf"
+                ],
+                "text/plain": [
+                    ".txt"
+                ],
+                "application/json": [
+                    ".json"
+                ],
+                "text/csv": [
+                    ".csv"
+                ]
+            }
+        }
+    ],
+    "share_target": {
+        "action": "/share",
+        "method": "POST",
+        "enctype": "multipart/form-data",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url",
+            "files": [
+                {
+                    "name": "files",
+                    "accept": [
+                        "image/*",
+                        "application/pdf",
+                        "text/*"
+                    ]
+                }
+            ]
+        }
+    },
+    "display_override": [
+        "window-controls-overlay",
+        "minimal-ui",
+        "standalone",
+        "browser"
+    ],
+    "handle_links": "preferred",
+    "capture_links": "existing-client-navigate",
+    "id": "pen-tech-solutions-pwa",
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+}
